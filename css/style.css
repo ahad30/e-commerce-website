@@ -1,0 +1,622 @@
+
+/* --------------------------------
+            GENERAL CSS start
+-------------------------------- */
+body{
+    background-color: #f4eeee;
+}
+.social-icon{
+    height: 32px;
+    width: 32px;
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+    border: 2px solid #fff;
+    transition: all .3s;
+}
+.social-icon:hover{
+    color:rgba(246, 174, 31, 0.917);
+    border: 2px rgba(246, 174, 31, 0.917);
+}
+.icon{
+    color: rgb(104, 107, 107);
+    transition: all .3s;
+}
+.icon:hover{
+    color:rgba(246, 174, 31, 0.917);
+}
+.p-tag{
+    font-size: 13px;
+}
+.search-box{
+    height: 34px; width:174px; display: inline-flex;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+  }
+  
+  .rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+  }
+  
+  .rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 15px;
+    color: #bbbbd5;
+  }
+  
+  .rate>input:not(:checked)~label {
+    color: #bbbbd5;
+  }
+  
+  .rate:not(:checked)>label:hover,
+  .rate:not(:checked)>label:hover~label {
+    color: #deb217;
+  }
+  
+  .rate>input:checked+label:hover,
+  .rate>input:checked+label:hover~label,
+  .rate>input:checked~label:hover,
+  .rate>input:checked~label:hover~label,
+  .rate>label:hover~input:checked~label {
+    color: #c59b08;
+  }
+
+/* --------------------------------
+            GENERAL CSS END
+-------------------------------- */
+
+
+
+/* --------------------------------
+           header start
+-------------------------------- */
+.header{
+    position: sticky;
+}
+.upper-nav{
+    color: rgb(104, 107, 107);
+}
+.logo-div{
+    padding-left: 330px;
+}
+.logo{
+    height: 50px;
+    width: 140px;
+}
+.nav-search{
+    height: 25px;
+    width: 110px;
+}
+.nav-form::after{
+    position: absolute;
+    left: 960px;
+}
+.hr-text{
+    color: rgb(104, 107, 107);
+}
+.nav-link{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all .3s;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgba(246, 174, 31, 0.917);
+}
+.lower-navbar{
+    margin-top: 1px;
+}
+
+/* --------------------------------
+            header end
+-------------------------------- */
+
+
+
+/* --------------------------------
+            banner start
+-------------------------------- */
+.banner{
+ background-color: rgb(6, 4, 52) ;
+}
+
+.banner-img{
+    height: 500px;
+    opacity: .5;
+    position: relative;
+}
+.banner-text{
+ position: absolute;
+ top:121px;
+ right: 0;
+ left: 0;
+ text-transform: uppercase;
+}
+.banner-text h3{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.banner-span{
+    position: absolute;
+    top:270px;
+    right: 0;
+    left: 0;
+    text-transform: uppercase;
+}
+.banner-button{
+    position: absolute;
+    top:360px;
+    left: 626px;
+    height: 44px;
+    width: 135px;
+    border: 2px solid #fff;
+}
+/* --------------------------------
+            banner end
+-------------------------------- */
+
+
+/* --------------------------------
+    FEATURE OF PRODUCT start
+-------------------------------- */
+
+                .feature {padding:45px 0 0px;}
+
+                .feature-content,.blog-content{margin-top: 45px;}
+                .single-feature,.single-blog {margin-bottom:30px;}
+                .single-feature button{ border: 2px solid #a9a9a9; color: #a9a9a9; font-weight: bold;}
+                .col-sm-3{background-color: #fff;  width: 275px;}
+                /*.single-feature-txt */
+                .single-feature-txt,.single-blog-txt{margin-top: 25px;}
+                .single-feature-txt p i {
+                    color:  #efce4a;
+                    margin-left:  5px;
+                }
+                span.spacial-feature-icon i {color:  #a9a9a9;}
+                span.feature-review {margin-left: 10px;}
+                .single-feature-txt p {font-size: 14px;}
+                .single-feature-txt h3 a ,.single-blog-txt h2 a{
+                    color: #5f5b57;
+                    margin: 10px 0px 15px;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+                .single-feature-txt h5 {
+                    color:  #5f5b57;
+                    font-weight:  400;
+                }
+
+/* --------------------------------
+    FEATURE OF PRODUCT end 
+-------------------------------- */
+
+
+
+/* --------------------------------
+         discount css start 
+-------------------------------- */
+
+.card-img-text, .card-img-text-L{
+    position: absolute;
+    top: 74px;
+}
+.card-img-text{left: 20px;} 
+.card-img-text-L{right: 20px;} 
+
+/* --------------------------------
+           discount css end 
+-------------------------------- */
+
+
+/* --------------------------------
+           Products css start
+-------------------------------- */
+.products-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.products-title::after{
+    content: '';
+    height: 2px;
+    width: 20px;
+    top: 0;
+    left: 0;
+    background-color: rgba(246, 174, 31, 0.917);
+}
+
+/*price tag */
+.price-tag{margin-top: 0;}
+.price-tag p i {
+    color:  #efce4a;
+    margin-left:  5px;
+}
+span.spacial-feature-icon i {color:  #a9a9a9;}
+span.feature-review {margin-left: 10px;}
+.price-tag p {font-size: 14px;}
+.price-tag h4 a ,.single-blog-txt h2 a{
+    color: #5f5b57;
+    margin: 10px 0px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.price-tag h6 {
+    color:  #5f5b57;
+    font-weight:  400;
+    padding-right: 10px;
+    padding-top: 2px;
+    opacity: .8;
+}
+.price-tag h5 {
+    color:  rgba(246, 174, 31, 0.917);
+    font-weight:  400;
+    font-weight: bold;
+}
+/* --------------------------------
+           Products css end
+-------------------------------- */
+
+
+/* --------------------------------
+           Section css start
+-------------------------------- */
+.section-card{
+    background-color: #f4eeee;
+}
+.section-img{
+    position: relative;
+    top: 10px;
+    height: 200px;
+    width: 180px;
+}
+.card-body-1{background-color: rgb(0, 255, 115);}
+.card-body-2{background-color: rgb(0, 255, 30);}
+.card-body-3{background-color: rgb(119, 255, 0);}
+.card-body-4{background-color: rgb(170, 255, 0);}
+.card-body-5{background-color: rgb(255, 221, 0);}
+.card-body-6{background-color: rgb(255, 136, 0);}
+
+/* --------------------------------
+           Section css end
+-------------------------------- */
+
+
+
+/* --------------------------------
+           Subcribe css start
+-------------------------------- */
+.card-title{ font-size: 20px;}
+.card-title span{ color: rgb(255, 136, 0);}
+
+.form-control{
+    justify-content: center;
+     width: 40%;
+    height: 32px;
+}
+
+/* --------------------------------
+           Subcribe css end
+-------------------------------- */
+
+
+/* Details Part Start */
+
+/* navbar start */
+a{
+    text-decoration: none;
+    color: #919191;
+    }
+     .breadcrumb a:hover{
+    color: #f3733d;
+    }
+    /* navbar end */
+    
+     /* description image start - */
+     span{
+         color: #f3733d;
+     }
+    #button1{
+        background-color: #f3733d;
+        color: white;
+    }
+    .pagination .page-item{
+        background-color: transparent;
+    }
+    /* description image end */
+    
+    
+    /* product description start */
+    .production{
+        margin-top: 100px;
+    }
+    /* product description end */
+    
+    
+    /* zoom image section start */
+    body { background: #eee; }
+    
+    .clearfix { zoom: 1; }
+    
+    .clearfix:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+    
+    .bzoom { direction: ltr; }
+    
+    .bzoom,
+    .bzoom_thumb,
+    .bzoom_thumb_image,
+    .bzoom_big_image,
+    .bzoom_zoom_preview,
+    .bzoom_icon,
+    .bzoom_hint { display: none }
+    
+    .bzoom .bzoom_thumb { background: #fff url(./img/loading.gif) center no-repeat; }
+    
+    .bzoom,
+    .bzoom ul,
+    .bzoom li,
+    .bzoom img,
+    .bzoom_hint,
+    .bzoom_icon,
+    .bzoom_description {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      list-style: none
+    }
+    
+    .bzoom,
+    .bzoom_magnifier div,
+    .bzoom_magnifier div img,
+    .bzoom_small_thumbs ul,
+    ul .bzoom_small_thumbs li,
+    .bzoom_zoom_area div,
+    .bzoom_zoom_img { position: relative }
+    
+    .bzoom img,
+    .bzoom li {
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+      -moz-user-drag: none;
+      -user-drag: none;
+    }
+    
+    .bzoom,
+    .bzoom_small_thumbs li { float: left }
+    
+    .bzoom_right { float: right }
+    
+    .bzoom li { position: absolute }
+    
+    .bzoom img {
+      vertical-align: bottom;
+      width: 50px;
+      height: 70px
+    }
+    
+    .bzoom .bzoom_zoom_area,
+    .bzoom_zoom_area {
+      background: #fff url(./img/loading.gif) center no-repeat;
+      border: 1px solid #ddd;
+      padding: 6px;
+      -webkit-box-shadow: 0 0 10px #ddd;
+      -moz-box-shadow: 0 0 10px #ddd;
+      box-shadow: 0 0 10px #ddd;
+      display: none;
+      z-index: 20;
+    }
+    
+    .bzoom_zoom_area div { overflow: hidden; }
+    
+    .bzoom_zoom_area .bzoom_zoom_img { position: absolute; }
+    
+    .bzoom_wrap .bzoom_magnifier {
+      background: #fff;
+      outline: #bbb solid 1px;
+      display: none;
+      cursor: move;
+    }
+    
+    .bzoom_magnifier div { overflow: hidden; }
+    
+    .bzoom_wrap .bzoom_small_thumbs { overflow: hidden; }
+    
+    .bzoom_wrap .bzoom_small_thumbs li {
+      border: 1px solid #FFF;
+      margin: 0px 10px 0px 0px;
+      position: relative;
+    }
+    
+    .bzoom_wrap ul li.bzoom_smallthumb_active {
+      -webkit-box-shadow: 0 0 10px #ddd;
+      -moz-box-shadow: 0 0 10px #ddd;
+      box-shadow: 0 0 10px #ddd;
+      border: 1px solid #535353;
+    }
+    /* zoom image section end */
+
+
+/* Details Part End */
+
+
+/* Contact Start */
+.compare{
+    border: 10px transparent;
+  
+}
+
+.submit{
+    margin-left: 1200px;
+}
+
+.contact{
+    border: 1px solid rgb(236, 233, 226);
+    display:inline-block;
+    background-color:rgb(236, 233, 226);
+}
+
+/* Image section start */
+.about-img{
+    position: relative;
+    
+}
+.about-img img{
+width: 80%;
+height: 400px;
+}
+.about-img::before{
+    position: absolute;
+    content: '';
+    right: 170px;
+    top: 167px;
+    border: 6px solid rgb(236, 233, 226);
+    height: 244px;
+    width: 210px;
+}
+
+.about-text p{
+   position: absolute;
+   font-size: 15px;
+   right: 214px;
+   top:199px;
+   color: brown;
+}
+.about-text10 p{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    right: 192px;
+    top:221px;
+    color: rgb(245, 244, 244);
+    
+ }
+ .about-text20 p{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    right: 214px;
+    top:261px;
+    color: rgb(245, 244, 244);
+    
+ }
+ .about-text30 a{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    right: 236px;
+    top:362px;
+    color: rgb(245, 244, 244);
+    
+ }
+ /* Image section end */
+
+
+/* Contact end */
+
+
+
+
+/* navbar start */
+a{
+    text-decoration: none;
+    color: #919191;
+    }
+     .breadcrumb a:hover{
+    color: #f3733d;
+    }
+    /* navbar end */
+    
+  
+  
+  /* living start */
+  
+      .banner{
+        background:url(../img/OIP_2.jpg) no-repeat center;
+        background-size:cover;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        -ms-background-size:cover;
+          min-height: 300px;
+        width:100%;
+      }
+      .banner-layer {
+          background: url(../img/OIP_2.jpg)repeat;
+          background: rgba(0, 0, 0, 0.5);
+          min-height: 300px;
+      }
+    
+  
+      .banner h2{
+        text-transform: uppercase;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 2px;
+        margin-top: 80px;
+    }
+    
+    .banner h3{
+      margin-top: 100px;
+      margin-left: 300px;
+      font-size: 50px;
+    }
+  
+  
+    .top{
+      margin-left: 490px;
+    }
+
+
+    /* living end */
+
+
+
+
+/* --------------------------------
+           Footer css start
+-------------------------------- */
+            .footer{
+                background-color: #171f1f;
+            }
+            .shipment-block{
+                background-color: #171f1f;
+            }
+            .call-us{
+                color: rgba(246, 174, 31, 0.917);
+                font-size: 13px;
+                text-align: center;
+            }
+            .card-img{
+                height: 25px;
+                width: 30px;
+            }
+            .creadit-card{
+                padding-left: 170px;
+            }
+            .select-box{
+                height: 25px; width:105px; display: inline-flex;
+            }
+/* --------------------------------
+           Footer css end
+-------------------------------- */
